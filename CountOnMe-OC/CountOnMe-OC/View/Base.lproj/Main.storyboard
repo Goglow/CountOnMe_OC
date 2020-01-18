@@ -242,11 +242,9 @@
                         <color key="backgroundColor" red="0.20734769110000001" green="0.3199112415" blue="0.39083099370000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="T2H-yn-nBB" firstAttribute="top" secondItem="hl0-ui-OGc" secondAttribute="top" constant="20" id="1QQ-wO-z9s"/>
-                            <constraint firstItem="isI-Gg-Iye" firstAttribute="width" secondItem="T2H-yn-nBB" secondAttribute="width" id="9EG-AQ-zhT"/>
                             <constraint firstItem="T2H-yn-nBB" firstAttribute="centerX" secondItem="eIh-hr-C95" secondAttribute="centerX" id="CDW-YY-oMU"/>
                             <constraint firstItem="T2H-yn-nBB" firstAttribute="centerX" secondItem="isI-Gg-Iye" secondAttribute="centerX" id="K7u-ew-oe5"/>
                             <constraint firstItem="T2H-yn-nBB" firstAttribute="leading" secondItem="eIh-hr-C95" secondAttribute="leadingMargin" constant="12" id="KgJ-pz-91z"/>
-                            <constraint firstItem="isI-Gg-Iye" firstAttribute="centerX" secondItem="eIh-hr-C95" secondAttribute="centerX" id="bET-TH-yhw"/>
                             <constraint firstAttribute="bottom" secondItem="ogr-Aw-e1h" secondAttribute="bottom" constant="40" id="ciz-ux-gle"/>
                             <constraint firstItem="isI-Gg-Iye" firstAttribute="leading" secondItem="ogr-Aw-e1h" secondAttribute="leading" id="eEO-BQ-fXK"/>
                             <constraint firstItem="ogr-Aw-e1h" firstAttribute="top" secondItem="isI-Gg-Iye" secondAttribute="bottom" constant="21" id="gfM-2o-e4s"/>
@@ -255,15 +253,9 @@
                             <constraint firstItem="isI-Gg-Iye" firstAttribute="top" secondItem="T2H-yn-nBB" secondAttribute="bottom" constant="24" id="yld-nG-hNd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hl0-ui-OGc"/>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="9EG-AQ-zhT"/>
-                                <exclude reference="bET-TH-yhw"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
-                        <outlet property="textView" destination="T2H-yn-nBB" id="yqe-Yo-Sag"/>
+                        <outlet property="textView" destination="T2H-yn-nBB" id="hHi-pR-CSy"/>
                         <outletCollection property="numberButtons" destination="YD6-ul-r3f" collectionClass="NSMutableArray" id="c8W-uL-ZHg"/>
                         <outletCollection property="numberButtons" destination="Raa-av-x4n" collectionClass="NSMutableArray" id="P52-Zx-bMS"/>
                         <outletCollection property="numberButtons" destination="jd7-ld-hSU" collectionClass="NSMutableArray" id="U3Z-si-yYe"/>
