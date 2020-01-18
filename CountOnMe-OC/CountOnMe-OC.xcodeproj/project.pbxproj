@@ -74,6 +74,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		831E0C2723D320500050672D /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				83E17DB423D31506007F9DA9 /* AppDelegate.swift */,
+				83E17DBB23D31506007F9DA9 /* Assets.xcassets */,
+				83E17DC023D31506007F9DA9 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		831E0C2823D320600050672D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				83E17DB623D31506007F9DA9 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		831E0C2923D320650050672D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83E17DB823D31506007F9DA9 /* Main.storyboard */,
+				83E17DBD23D31506007F9DA9 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		831E0C2A23D3206A0050672D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		83E17DA823D31506007F9DA9 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +131,10 @@
 		83E17DB323D31506007F9DA9 /* CountOnMe-OC */ = {
 			isa = PBXGroup;
 			children = (
-				83E17DB423D31506007F9DA9 /* AppDelegate.swift */,
-				83E17DB623D31506007F9DA9 /* ViewController.swift */,
-				83E17DB823D31506007F9DA9 /* Main.storyboard */,
-				83E17DBB23D31506007F9DA9 /* Assets.xcassets */,
-				83E17DBD23D31506007F9DA9 /* LaunchScreen.storyboard */,
-				83E17DC023D31506007F9DA9 /* Info.plist */,
+				831E0C2A23D3206A0050672D /* Model */,
+				831E0C2923D320650050672D /* View */,
+				831E0C2823D320600050672D /* Controller */,
+				831E0C2723D320500050672D /* Supporting files */,
 			);
 			path = "CountOnMe-OC";
 			sourceTree = "<group>";
@@ -428,7 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53FLK3FCZ4;
-				INFOPLIST_FILE = "CountOnMe-OC/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CountOnMe-OC/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Goglow.CountOnMe-OC";
@@ -444,7 +476,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53FLK3FCZ4;
-				INFOPLIST_FILE = "CountOnMe-OC/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/CountOnMe-OC/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Goglow.CountOnMe-OC";
