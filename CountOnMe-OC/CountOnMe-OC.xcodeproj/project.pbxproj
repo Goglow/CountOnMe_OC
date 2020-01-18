@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		831E0C2C23D333B50050672D /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0C2B23D333B50050672D /* Operation.swift */; };
+		831E0C2C23D333B50050672D /* SimpleCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0C2B23D333B50050672D /* SimpleCalc.swift */; };
 		83E17DB523D31506007F9DA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E17DB423D31506007F9DA9 /* AppDelegate.swift */; };
 		83E17DB723D31506007F9DA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E17DB623D31506007F9DA9 /* ViewController.swift */; };
 		83E17DBA23D31506007F9DA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E17DB823D31506007F9DA9 /* Main.storyboard */; };
@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		831E0C2B23D333B50050672D /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		831E0C2B23D333B50050672D /* SimpleCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalc.swift; sourceTree = "<group>"; };
 		83E17DB123D31506007F9DA9 /* CountOnMe-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CountOnMe-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E17DB423D31506007F9DA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83E17DB623D31506007F9DA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		831E0C2A23D3206A0050672D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				831E0C2B23D333B50050672D /* Operation.swift */,
+				831E0C2B23D333B50050672D /* SimpleCalc.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 			files = (
 				83E17DB723D31506007F9DA9 /* ViewController.swift in Sources */,
 				83E17DB523D31506007F9DA9 /* AppDelegate.swift in Sources */,
-				831E0C2C23D333B50050672D /* Operation.swift in Sources */,
+				831E0C2C23D333B50050672D /* SimpleCalc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
