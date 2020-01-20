@@ -8,7 +8,7 @@
 
 import Foundation
 
-class SimpleCalc {
+class CountOnMe {
     var calculation = ""
     
 /*    private func sendNotification(name: String) {
