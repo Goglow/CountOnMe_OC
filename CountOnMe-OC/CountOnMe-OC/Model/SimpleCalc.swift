@@ -11,9 +11,9 @@ import Foundation
 class SimpleCalc {
     var calculation = ""
     
-    private func sendNotification(name: String) {
+/*    private func sendNotification(name: String) {
         let name = Notification.Name(rawValue: name)
         let notification = Notification(name: name)
         NotificationCenter.default.post(notification)
-    }
+    }*/
 }
